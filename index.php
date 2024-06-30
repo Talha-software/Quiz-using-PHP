@@ -8,7 +8,44 @@
 <body>
     <div class="container">
         <h1>PHP Quiz</h1>
-        <form action="quiz.php" method="post">
+        
+        <?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $answers = array(
+                "question1" => "C",
+                "question2" => "B",
+                "question3" => "A"
+            );
+
+            $score = 0;
+            $feedback = array();
+
+            foreach ($answers as $question => $correctAnswer) {
+                if (isset($_POST[$question])) {
+                    if ($_POST[$question] == $correctAnswer) {
+                        $score++;
+                        $feedback[$question] = "Correct";
+                    } else {
+                        $feedback[$question] = "Incorrect";
+                    }
+                } else {
+                    $feedback[$question] = "No answer provided";
+                }
+            }
+
+            echo "<h1>Quiz Results</h1>";
+            echo "<p>Your score: $score/" . count($answers) . "</p>";
+
+            foreach ($feedback as $question => $response) {
+                echo "<div class='feedback'>$question: $response</div>";
+            }
+            echo "<form action='' method='GET'>";
+            echo "<input type='submit' value='Go Back to Quiz'></input>";
+            echo "</form>";
+        } else {
+        ?>
+        
+        <form action="" method="post">
             <div>
                 <p>1. What is the capital of France?</p>
                 <input type="radio" name="question1" value="A"> A. Berlin<br>
@@ -32,6 +69,11 @@
             </div>
             <input type="submit" value="Submit Quiz">
         </form>
+        
+        <?php
+        }
+        ?>
+
     </div>
 </body>
 </html>
