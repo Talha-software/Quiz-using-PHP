@@ -49,25 +49,25 @@
 
             <form action="" method="post">
                 <div>
-                    <p>1. What is the capital of France?</p>
-                    <input type="radio" name="question1" value="A"> A. Berlin<br>
-                    <input type="radio" name="question1" value="B"> B. Madrid<br>
-                    <input type="radio" name="question1" value="C"> C. Paris<br>
-                    <input type="radio" name="question1" value="D"> D. Rome<br>
+                    <p>1. Ozone layer protect life on earth from?</p>
+                    <input type="radio" name="question1" value="A"> A. Green house gases<br>
+                    <input type="radio" name="question1" value="B"> B. meteoriods<br>
+                    <input type="radio" name="question1" value="C"> C. UV rays<br>
+                    <input type="radio" name="question1" value="D"> D. Humidity<br>
                 </div>
                 <div>
-                    <p>2. What is the largest planet in our solar system?</p>
-                    <input type="radio" name="question2" value="A"> A. Earth<br>
-                    <input type="radio" name="question2" value="B"> B. Jupiter<br>
-                    <input type="radio" name="question2" value="C"> C. Mars<br>
-                    <input type="radio" name="question2" value="D"> D. Venus<br>
+                    <p>2. Facebook is a ____ networking program?</p>
+                    <input type="radio" name="question2" value="A"> A. Poloitical<br>
+                    <input type="radio" name="question2" value="B"> B. Social<br>
+                    <input type="radio" name="question2" value="C"> C. Criminal<br>
+                    <input type="radio" name="question2" value="D"> D. Children<br>
                 </div>
                 <div>
-                    <p>3. Who wrote "To Kill a Mockingbird"?</p>
-                    <input type="radio" name="question3" value="A"> A. Harper Lee<br>
-                    <input type="radio" name="question3" value="B"> B. J.K. Rowling<br>
-                    <input type="radio" name="question3" value="C"> C. Mark Twain<br>
-                    <input type="radio" name="question3" value="D"> D. George Orwell<br>
+                    <p>3. Captin on Pakistan T20 Cricket team is?</p>
+                    <input type="radio" name="question3" value="A"> A. Muhammad Hafiz<br>
+                    <input type="radio" name="question3" value="B"> B. Younas Khan<br>
+                    <input type="radio" name="question3" value="C"> C. Misbal Haq<br>
+                    <input type="radio" name="question3" value="D"> D. Shahad Afridi<br>
                 </div>
                 <input type="submit" value="Submit Quiz">
             </form>
