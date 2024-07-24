@@ -49,18 +49,18 @@
 
             <form action="" method="post">
                 <div>
-                    <p>1. Ozone layer protect life on earth from?</p>
-                    <input type="radio" name="question1" value="A"> A. Green house gases<br>
-                    <input type="radio" name="question1" value="B"> B. meteoriods<br>
-                    <input type="radio" name="question1" value="C"> C. UV rays<br>
-                    <input type="radio" name="question1" value="D"> D. Humidity<br>
+                    <p>1. What is the largest body part of human?</p>
+                    <input type="radio" name="question1" value="A"> A. Liver<br>
+                    <input type="radio" name="question1" value="B"> B. Brain<br>
+                    <input type="radio" name="question1" value="C"> C. Skin<br>
+                    <input type="radio" name="question1" value="D"> D. Intestine<br>
                 </div>
                 <div>
-                    <p>2. Facebook is a ____ networking program?</p>
-                    <input type="radio" name="question2" value="A"> A. Poloitical<br>
-                    <input type="radio" name="question2" value="B"> B. Social<br>
-                    <input type="radio" name="question2" value="C"> C. Criminal<br>
-                    <input type="radio" name="question2" value="D"> D. Children<br>
+                    <p>2. Which conrty has most painfull torture?</p>
+                    <input type="radio" name="question2" value="A"> A. Amarica<br>
+                    <input type="radio" name="question2" value="B"> B. China<br>
+                    <input type="radio" name="question2" value="C"> C. Japan<br>
+                    <input type="radio" name="question2" value="D"> D. Russia<br>
                 </div>
                 <div>
                     <p>3. Captin on Pakistan T20 Cricket team is?</p>
